@@ -2,11 +2,11 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/ERC20.sol": {
-      "lastModificationDate": 1716808100598,
-      "contentHash": "0bb0f8f5badd17c200526750b9e2085e",
+      "lastModificationDate": 1716809154583,
+      "contentHash": "a1e9bb6ef5070581575b87b200b7a952",
       "sourceName": "contracts/ERC20.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -30,18 +30,18 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "ERC20"
       ]
     },
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/RLC.sol": {
-      "lastModificationDate": 1716808251708,
-      "contentHash": "af6eac2c4579db4b0d43569934b4d0fb",
+      "lastModificationDate": 1716809154583,
+      "contentHash": "5f2a569c0e69ba6bbb8571f6ae03ff79",
       "sourceName": "contracts/RLC.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -70,18 +70,18 @@
         "./TokenSpender.sol"
       ],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "RLC"
       ]
     },
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/SafeMath.sol": {
-      "lastModificationDate": 1716808275774,
-      "contentHash": "ed3a5dc88fda0b7db585f517dacf9052",
+      "lastModificationDate": 1716809154584,
+      "contentHash": "c883e41d79a324a012d54fa084491e04",
       "sourceName": "contracts/SafeMath.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -105,18 +105,18 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "SafeMath"
       ]
     },
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/Ownable.sol": {
-      "lastModificationDate": 1716806859207,
-      "contentHash": "473e02574c4fd0cb22b12f67a3340bec",
+      "lastModificationDate": 1716809154583,
+      "contentHash": "38943440456c50f3650626c1e6782c28",
       "sourceName": "contracts/Ownable.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -140,18 +140,18 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "Ownable"
       ]
     },
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/TokenSpender.sol": {
-      "lastModificationDate": 1716807740851,
-      "contentHash": "60604134fcb980cd481dbb469d6586dc",
+      "lastModificationDate": 1716809154583,
+      "contentHash": "debe92a92cc2d417f346d711a36207ca",
       "sourceName": "contracts/TokenSpender.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -175,18 +175,18 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "TokenSpender"
       ]
     },
     "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/Migrations.sol": {
-      "lastModificationDate": 1716806876514,
-      "contentHash": "6d9b5aaec8070580ecce973cae2569b3",
+      "lastModificationDate": 1716809154584,
+      "contentHash": "39d912f067a3fdd5c7b8a15a2f255941",
       "sourceName": "contracts/Migrations.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.4.11",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -212,7 +212,7 @@
         "./Ownable.sol"
       ],
       "versionPragmas": [
-        "^0.6.0"
+        "^0.4.8"
       ],
       "artifacts": [
         "Migrations"

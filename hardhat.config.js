@@ -9,7 +9,7 @@ require("@nomicfoundation/hardhat-foundry");
 
 module.exports = {
   solidity: {
-    version: "0.6.12",
+    version: "0.4.11",
     settings: {
       optimizer: {
         enabled: true,

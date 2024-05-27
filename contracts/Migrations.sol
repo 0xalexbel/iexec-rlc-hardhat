@@ -1,15 +1,15 @@
-// SPDX-License-Identifier: Apache-2.0
-pragma solidity ^0.6.0;
+pragma solidity ^0.4.8;
+
 import "./Ownable.sol";
 
 contract Migrations is Ownable {
     uint public lastCompletedMigration;
 
-    function setCompleted(uint completed) public onlyOwner {
+    function setCompleted(uint completed) onlyOwner {
         lastCompletedMigration = completed;
     }
 
-    function upgrade(address newAddress) public onlyOwner {
+    function upgrade(address newAddress) onlyOwner {
         Migrations upgraded = Migrations(newAddress);
         upgraded.setCompleted(lastCompletedMigration);
     }
