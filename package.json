@@ -1,5 +1,5 @@
 {
-  "name": "@iexec/rlc-hardhat",
+  "name": "@iexec/rlc",
   "version": "1.0.0",
   "engines": {
     "node": ">=20"
