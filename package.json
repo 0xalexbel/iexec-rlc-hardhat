@@ -1,10 +1,15 @@
 {
-  "name": "rlc-faucet-contract",
-  "version": "1.0.10",
-  "description": "",
-  "main": "truffle.js",
+  "name": "@iexec/rlc-hardhat",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Hardhat version of 'iExecBlockchainComputing/rlc-faucet-contract'",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "hardhat compile",
+    "build": "hardhat compile",
+    "clean": "hardhat clean",
+    "test": "hardhat test"
   },
   "repository": {
     "type": "git",
@@ -17,10 +22,14 @@
   },
   "homepage": "https://github.com/iExecBlockchainComputing/rlc-faucet-contract#readme",
   "devDependencies": {
-    "truffle": "3.4.9",
-    "bluebird": "3.5.0",
-    "lodash": "^4.17.4",
-    "truffle-contract": "2.0.0",
-    "web3": "0.20.2"
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-foundry": "^1.1.2",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.4.1",
+    "hardhat": "^2.22.4",
+    "web3-eth-contract": "^4.5.0",
+    "web3-utils": "^4.3.0"
   }
 }

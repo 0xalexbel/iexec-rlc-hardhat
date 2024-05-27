@@ -1,0 +1,222 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/ERC20.sol": {
+      "lastModificationDate": 1716808100598,
+      "contentHash": "0bb0f8f5badd17c200526750b9e2085e",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/RLC.sol": {
+      "lastModificationDate": 1716808251708,
+      "contentHash": "af6eac2c4579db4b0d43569934b4d0fb",
+      "sourceName": "contracts/RLC.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./SafeMath.sol",
+        "./ERC20.sol",
+        "./TokenSpender.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "RLC"
+      ]
+    },
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/SafeMath.sol": {
+      "lastModificationDate": 1716808275774,
+      "contentHash": "ed3a5dc88fda0b7db585f517dacf9052",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/Ownable.sol": {
+      "lastModificationDate": 1716806859207,
+      "contentHash": "473e02574c4fd0cb22b12f67a3340bec",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/TokenSpender.sol": {
+      "lastModificationDate": 1716807740851,
+      "contentHash": "60604134fcb980cd481dbb469d6586dc",
+      "sourceName": "contracts/TokenSpender.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "TokenSpender"
+      ]
+    },
+    "/Users/alex/tutorials/foundry-tuto/new/iexec-rlc-hardhat/contracts/Migrations.sol": {
+      "lastModificationDate": 1716806876514,
+      "contentHash": "6d9b5aaec8070580ecce973cae2569b3",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    }
+  }
+}

@@ -1,9 +1,10 @@
-pragma solidity ^0.4.8;
+// SPDX-License-Identifier: Apache-2.0
+pragma solidity ^0.6.0;
 //v0.1.0
 contract Ownable {
   address public owner;
 
-  function Ownable() {
+  constructor() public {
     owner = msg.sender;
   }
 
@@ -12,7 +13,7 @@ contract Ownable {
       _;
   }
 
-  function transferOwnership(address newOwner) onlyOwner {
+  function transferOwnership(address newOwner) public onlyOwner {
     if (newOwner != address(0)) owner = newOwner;
   }
 
